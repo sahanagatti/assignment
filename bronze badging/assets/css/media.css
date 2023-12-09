@@ -1,0 +1,22 @@
+@media (max-width:768px) {
+    header>nav>ul>li{
+        display: block;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav{
+        padding: 20px;
+        text-align: center;
+    }
+}
+@media (min-width:769px) and (max-width:1200px){
+       header>nav>ul{
+        float: none;
+       }
+       header>nav{
+        padding: 20px;
+        text-align: center;
+       } 
+    
+}
